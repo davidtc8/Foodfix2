@@ -4,11 +4,11 @@ import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 
 
-import Posts from './components /Post/Post';
-import Form from './components /Form/Forms';
+import Posts from './components/Post/Post';
+import Form from './components/Form/Form';
 import { getPosts } from './actions/post';
 import useStyles from './styles';
-import test from './images/test.png'
+// import test from './images/test.png'
 
 const App = () => {
 
@@ -25,7 +25,7 @@ const App = () => {
     <Container maxWidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography className={classes.heading} variant="h2" align="center">Food Fix</Typography>
-        <img className={classes.image} src={test} alt="test" height="60" />
+        {/* <img className={classes.image} src={test} alt="test" height="60" /> */}
       </AppBar>
       <Grow in>
         <Container>
