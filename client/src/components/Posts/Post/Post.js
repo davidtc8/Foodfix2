@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   Card,
   CardActions,
@@ -59,3 +60,4 @@ const Post = ({ post }) => {
 };
 
 export default Post;
+
