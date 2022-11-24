@@ -1,13 +1,21 @@
-import express from 'express';
+import express from "express";
 
-//import logic of routes
-import { getPosts, createPost} from '../controllers/posts.js'; //node needs the .js
+import {
+  getPosts,
+  getPost,
+  createPost,
+  updatePost,
+  likePost,
+  deletePost,
+} from "../controllers/posts.js";
 
 const router = express.Router();
 
-//Seperate accecible routes logic into controllers file.
-router.get('/', getPosts);
-router.get('/', createPost);
-
+router.get("/", getPosts);
+router.post("/", createPost);
+router.get("/:id", getPost);
+router.patch("/:id", updatePost);
+router.delete("/:id", deletePost);
+router.patch("/:id/likePost", likePost);
 
 export default router;
