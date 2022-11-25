@@ -11,14 +11,14 @@ import userRoutes from "./routes/users.js";
 
 const app = express();
 dotenv.config()
-app.use(cors());
 
 //Base route to get acces to all post routes.
-app.use("/posts", postRoutes); //Test with:
-app.use('/user', userRoutes);
 
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
+app.use(cors());
+app.use("/posts", postRoutes); //Test with:
+app.use('/user', userRoutes);
 
 
 //CONNECTO TO MONGO DB ATLAS
