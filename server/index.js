@@ -10,12 +10,11 @@ import postRoutes from "./routes/posts.js";
 const app = express();
 
 //Base route to get acces to all post routes.
-app.use("/posts", postRoutes); //Test with:
 
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
-
+app.use("/posts", postRoutes); //Test with:
 //CONNECTO TO MONGO DB ATLAS
 const CONNECTION_URL =
   "mongodb+srv://test:test123@cluster0.2fscpix.mongodb.net/?retryWrites=true&w=majority";
