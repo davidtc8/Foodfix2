@@ -1,20 +1,25 @@
 import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
-import dotenv from "dotenv";
+import * as dotenv from "dotenv";
 import cors from "cors";
 
 //routes files imports
 import postRoutes from "./routes/posts.js";
+import userRoutes from "./routes/users.js";
+
 
 const app = express();
+dotenv.config()
+app.use(cors());
 
 //Base route to get acces to all post routes.
 app.use("/posts", postRoutes); //Test with:
+app.use('/user', userRoutes);
 
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
-app.use(cors());
+
 
 //CONNECTO TO MONGO DB ATLAS
 const CONNECTION_URL =
@@ -22,7 +27,7 @@ const CONNECTION_URL =
 const PORT = process.env.PORT || 3002; //should be 5000
 
 mongoose
-  .connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() =>
     app.listen(PORT, () => console.log(`server running on port: ${PORT}`))
   )
