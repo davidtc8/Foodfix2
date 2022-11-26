@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import decode from 'jwt-decode';
 
 import foodLogo from '../../images/fix.png';
-import memoriesText from '../../images/fix.png';
+// import memoriesText from '../../images/fix.png';
 import * as actionType from '../../constants/actionTypes';
 import useStyles from './styles';
 
@@ -39,7 +39,6 @@ const Navbar = () => {
   return (
     <AppBar className={classes.appBar} position="static" color="inherit">
       <Link to="/" className={classes.brandContainer}>
-        {/* <img component={Link} to="/" src={memoriesText} alt="icon" height="45px" /> */}
         <h1>FoodFix.</h1>
         <img className={classes.image} src={foodLogo} alt="icon" height="40px" />
       </Link>
