@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Container, AppBar, Typography, Grow, Grid } from "@material-ui/core";
 import { useDispatch } from "react-redux";
 
-import Posts from "./components/Post/Posts";
+import Posts from "./components/Posts/Posts";
 import Form from "./components/Form/Form";
-import { getPosts } from "./actions/post";
+import { getPosts } from "./actions/posts";
 import useStyles from "./styles";
 // import test from './images/test.png'
 
@@ -21,9 +21,9 @@ const App = () => {
     <Container maxWidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography className={classes.heading} variant="h2" align="center">
-          Memories
+          {/* Memories */}
         </Typography>
-        <img className={classes.image} src={memories} alt="icon" height="60" />
+        {/* <img className={classes.image} src={memories} alt="icon" height="60" /> */}
       </AppBar>
       <Grow in>
         <Container>
