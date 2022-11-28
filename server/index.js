@@ -15,9 +15,15 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 app.use("/user", userRouter);
+
+// To check if our server is running:
+app.get('/', (req, res) => {
+  res.send('APP IS RUNNING UWU');
+})
+
 const CONNECTION_URL =
   "mongodb+srv://test:test123@cluster0.2fscpix.mongodb.net/?retryWrites=true&w=majority";
-const PORT = process.env.PORT|| 3002;
+const PORT = process.env.PORT|| 1643;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))
