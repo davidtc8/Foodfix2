@@ -5,7 +5,6 @@ import { useDispatch } from 'react-redux';
 import decode from 'jwt-decode';
 
 import foodLogo from '../../images/fix.png';
-// import memoriesText from '../../images/fix.png';
 import * as actionType from '../../constants/actionTypes';
 import useStyles from './styles';
 
@@ -50,7 +49,7 @@ const Navbar = () => {
             <Button variant="contained" className={classes.logout} color="secondary" onClick={logout}>Logout</Button>
           </div>
         ) : (
-          <Button component={Link} to="/auth" variant="contained" color="primary">Sign In</Button>
+          <Button className={classes.logout}  component={Link} to="/auth" variant="contained" color="primary">Sign In</Button>
         )}
       </Toolbar>
     </AppBar>

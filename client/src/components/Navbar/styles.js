@@ -47,6 +47,7 @@ export default makeStyles((theme) => ({
   },
   logout: {
     marginLeft: '20px',
+    background: 'linear-gradient(45deg, #8ab200 30%, #8ab200 90%)',
   },
   userName: {
     display: 'flex',
