@@ -1,12 +1,12 @@
 # `PROJECT III` - Interactive MERN Stack Single-Page Application
 ​
 
-> ## **`Project Description`**
+## **`Project Description`**
 ​
 For this project, we want to put all topics that were provided in our Bootcamp to practice by getting together as a team of soon-to-be developers.
 The user story is to be determined and chose on our own to meet the requirements.
 ​
-> ## `Live Website`
+## `Live Website`
 Foodfix Website : [CLICK Here to see the Website Result !](https://foodfix.mx)
 
 > ## `Project Requirements`
