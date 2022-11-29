@@ -72,8 +72,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ​
 ---
-​
-<br>
+
 ​
 ## | MOCK-UP |
 ​
