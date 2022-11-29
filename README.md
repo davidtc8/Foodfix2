@@ -76,13 +76,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following image demostrates the aftermath of the website in `APPEARANCE`, and `FUNCTIONALITY`:
 ​
 `The FoodFix web app on the aftermath:`
-​
-<p align="center">
-  <img width="100%" src="./client/public/FixFood-MockUp.gif">
+
 ​
 ### LINK : [CLICK Here to see the Website Result !](https://foodfix.mx)
 ​
-<br>
 ​
 ## Technologies Used
 ​
@@ -90,17 +87,10 @@ The following image demostrates the aftermath of the website in `APPEARANCE`, an
 ​
 | **`HTML`** | **`CSS`** | **`BOOTSTRAP`** | **`REACT`** | **`MONGODB`** | **`MONGOOSE ODM`** | **`NODE.JS`** | **`EXPRESS.JS`** | **`REDUX`** | **`MATERIAL UI`** | **`ESLINT`** | **`MOMENT`** | **`INSOMNIA`** | **`HEROKU`** | **`VSCODE`** | **`GITHUB`** | **`GIT BASH`** |
 ​
-</p>
 ---
 ​
 ### LINK : [CLICK Here to visit the repository !](https://github.com/davidtc8/Foodfix2.git)
 ​
 ---
 ​
-<p align= 'center' style="font-size:25px">Food Fix</p>
-​
----
-​
-<p align= 'center' style="font-size:25px">
 THANK YOU FOR YOUR TIME!
-</p>
