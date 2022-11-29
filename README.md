@@ -85,5 +85,8 @@ The following image demostrates the aftermath of the website in `APPEARANCE`, an
 ### Repo Link : 
 [CLICK Here to visit the repository !](https://github.com/davidtc8/Foodfix2.git)
 ​
-​--- 
+```
+
 THANK YOU FOR YOUR TIME!
+
+```
