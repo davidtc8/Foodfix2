@@ -5,6 +5,9 @@
 For this project, we want to put all topics that were provided in our Bootcamp to practice by getting together as a team of soon-to-be developers.
 The user story is to be determined and chose on our own to meet the requirements.
 ​
+> ## Live Website
+Foodfix Website : [CLICK Here to see the Website Result !](https://foodfix.mx)
+
 > ## Project Requirements
 ​
 In creating our first collaborative MERN-stack single-page application, we will combine a scalable MongoDB back end, an Express.js and Node.js server with a React front end, implementing user authentication with JWT to build a user-focused platform. We will continue to build on the agile development methodologies we’ve used throughout this course. These include storing our project code in GitHub, managing our work with a project management tool, and implementing feature and bug fixes using the Git branch workflow and pull requests.
@@ -80,19 +83,19 @@ The following image demostrates the aftermath of the website in `APPEARANCE`, an
 <p align="center">
   <img width="100%" src="./client/public/FixFood-MockUp.gif">
 ​
-> ### LINK : [CLICK Here to see the Website Result !](https://foodfix.mx)
+### LINK : [CLICK Here to see the Website Result !](https://foodfix.mx)
 ​
 <br>
 ​
-> ## Technologies Used
+## Technologies Used
 ​
-The webpage was able to be complete with help of the following technologies:
+### The webpage was able to be complete with help of the following technologies:
 ​
 | **`HTML`** | **`CSS`** | **`BOOTSTRAP`** | **`REACT`** | **`MONGODB`** | **`MONGOOSE ODM`** | **`NODE.JS`** | **`EXPRESS.JS`** | **`REDUX`** | **`MATERIAL UI`** | **`ESLINT`** | **`MOMENT`** | **`INSOMNIA`** | **`HEROKU`** | **`VSCODE`** | **`GITHUB`** | **`GIT BASH`** |
 ​
 ---
 ​
-> ### LINK : [CLICK Here to visit the repository !](https://github.com/davidtc8/Foodfix2.git)
+### LINK : [CLICK Here to visit the repository !](https://github.com/davidtc8/Foodfix2.git)
 ​
 ---
 ​
