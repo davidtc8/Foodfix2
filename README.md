@@ -71,10 +71,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ​
----
-
-​
-## | MOCK-UP |
+## MOCK-UP
 ​
 The following image demostrates the aftermath of the website in `APPEARANCE`, and `FUNCTIONALITY`:
 ​
