@@ -71,7 +71,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ​
-## MOCK-UP
+## `MOCK-UP`
 ​
 The following image demostrates the aftermath of the website in `APPEARANCE`, and `FUNCTIONALITY`:
 ​
@@ -90,6 +90,7 @@ The following image demostrates the aftermath of the website in `APPEARANCE`, an
 ​
 | **`HTML`** | **`CSS`** | **`BOOTSTRAP`** | **`REACT`** | **`MONGODB`** | **`MONGOOSE ODM`** | **`NODE.JS`** | **`EXPRESS.JS`** | **`REDUX`** | **`MATERIAL UI`** | **`ESLINT`** | **`MOMENT`** | **`INSOMNIA`** | **`HEROKU`** | **`VSCODE`** | **`GITHUB`** | **`GIT BASH`** |
 ​
+</p>
 ---
 ​
 ### LINK : [CLICK Here to visit the repository !](https://github.com/davidtc8/Foodfix2.git)
