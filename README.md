@@ -82,7 +82,8 @@ The following image demostrates the aftermath of the website in `APPEARANCE`, an
 
 | **`HTML`** | **`CSS`** | **`BOOTSTRAP`** | **`REACT`** | **`MONGODB`** | **`MONGOOSE ODM`** | **`NODE.JS`** | **`EXPRESS.JS`** | **`REDUX`** | **`MATERIAL UI`** | **`ESLINT`** | **`MOMENT`** | **`INSOMNIA`** | **`HEROKU`** | **`VSCODE`** | **`GITHUB`** | **`GIT BASH`** |
 
-### LINK : [CLICK Here to visit the repository !](https://github.com/davidtc8/Foodfix2.git)
+### Repo Link : 
+[CLICK Here to visit the repository !](https://github.com/davidtc8/Foodfix2.git)
 ​
 ​
 THANK YOU FOR YOUR TIME!
